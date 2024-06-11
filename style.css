@@ -511,6 +511,7 @@ form {
 }
 
 form input {
+  -webkit-appearance: none;
   border: none;
   padding: 0.5rem;
   width: 400px;
