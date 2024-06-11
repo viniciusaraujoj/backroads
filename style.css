@@ -161,6 +161,7 @@ body {
   cursor: pointer;
   display: none;
   transition: var(--transition);
+  background: transparent;
 }
 
 .header__menu:hover {
