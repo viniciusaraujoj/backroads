@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Backroads || Tour Company</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
@@ -23,8 +23,8 @@
             <li><a href="#header">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
-            <li><a href="#">Featured</a></li>
-            <li><a href="#">Gallery</a></li>
+            <li><a href="#tours">Featured</a></li>
+            <li><a href="#gallery">Gallery</a></li>
           </ul>
         </nav>
 
@@ -48,8 +48,8 @@
           <li><a class="container" href="#">Home</a></li>
           <li><a class="container" href="#about">About</a></li>
           <li><a class="container" href="#services">Services</a></li>
-          <li><a class="container" href="#">Featured</a></li>
-          <li><a class="container" href="#">Gallery</a></li>
+          <li><a class="container" href="#tours">Featured</a></li>
+          <li><a class="container" href="#gallery">Gallery</a></li>
         </ul>
       </nav>
     </header>
@@ -95,8 +95,225 @@
     <section id="services">
       <div class="container services">
         <h2 class="title">Our <span class="clr-primary">Services</span></h2>
+
+        <div class="services__card__container">
+          <!-- card 1 -->
+          <div class="services__card">
+            <span class="services__icon"
+              ><i class="fa-solid fa-wallet"></i
+            ></span>
+            <div class="services__card__info">
+              <h3>Saving Money</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Asperiores, officia.
+              </p>
+            </div>
+          </div>
+          <!-- card 2 -->
+          <div class="services__card">
+            <span class="services__icon"><i class="fa-solid fa-tree"></i></span>
+            <div class="services__card__info">
+              <h3>Endless Hiking</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Asperiores, officia.
+              </p>
+            </div>
+          </div>
+          <!-- card 3 -->
+          <div class="services__card">
+            <span class="services__icon"
+              ><i class="fa-solid fa-socks"></i
+            ></span>
+            <div class="services__card__info">
+              <h3>Amazing Comfort</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Asperiores, officia.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
+
+    <!-- tours -->
+    <section id="tours">
+      <div class="container tours">
+        <h2 class="title">Featured <span class="clr-primary">Tours</span></h2>
+
+        <div class="tours__card__container">
+          <!-- card 1 -->
+          <article class="tour__card">
+            <div class="tour__img">
+              <img src="./images/tour-1.jpeg" alt="" />
+            </div>
+            <div class="tour__card__about">
+              <div class="tour__card__title">
+                <h3>Tibet Adventure</h3>
+                <span>6 days</span>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
+                vitae tempore voluptatum maxime reprehenderit eum quod
+                exercitationem fugit, qui corporis.
+              </p>
+              <div class="tour__card__info">
+                <span><i class="fa-solid fa-plane"></i> China </span>
+
+                <span>From $1400</span>
+              </div>
+            </div>
+          </article>
+          <!-- card 2 -->
+          <article class="tour__card">
+            <div class="tour__img">
+              <img class="tour__img" src="./images/tour-2.jpeg" alt="" />
+            </div>
+            <div class="tour__card__about">
+              <div class="tour__card__title">
+                <h3>Best Of Java</h3>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
+                vitae tempore voluptatum maxime reprehenderit eum quod
+                exercitationem fugit, qui corporis.
+              </p>
+              <div class="tour__card__info">
+                <span><i class="fa-solid fa-plane"></i> Indonesia</span>
+                <span>11 Days</span>
+                <span>From $1400</span>
+              </div>
+            </div>
+          </article>
+          <!-- card 3 -->
+          <article class="tour__card">
+            <div class="tour__img">
+              <img class="tour__img" src="./images/tour-3.jpeg" alt="" />
+            </div>
+            <div class="tour__card__about">
+              <div class="tour__card__title">
+                <h3>Explore Hong Kong</h3>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
+                vitae tempore voluptatum maxime reprehenderit eum quod
+                exercitationem fugit, qui corporis.
+              </p>
+              <div class="tour__card__info">
+                <span><i class="fa-solid fa-plane"></i> Hong Kong </span>
+                <span>8 Days</span>
+                <span>$5000</span>
+              </div>
+            </div>
+          </article>
+          <!-- card 4 -->
+          <article class="tour__card">
+            <div class="tour__img">
+              <img class="tour__img" src="./images/tour-4.jpeg" alt="" />
+            </div>
+            <div class="tour__card__about">
+              <div class="tour__card__title">
+                <h3>Kenya Highlights</h3>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
+                vitae tempore voluptatum maxime reprehenderit eum quod
+                exercitationem fugit, qui corporis.
+              </p>
+              <div class="tour__card__info">
+                <span><i class="fa-solid fa-plane"></i> Kenya </span>
+                <span>20 Days</span>
+                <span>From $3300</span>
+              </div>
+            </div>
+          </article>
+        </div>
+        <a class="btn" href="#">All Tours</a>
+      </div>
+    </section>
+
+    <!-- form -->
+    <section id="sign-up">
+      <div class="container sign-up">
+        <div class="sign-up__title">
+          <h2>Want latest tour info and updates?</h2>
+          <p>Sign up for newsletter and stay up to date</p>
+        </div>
+
+        <form action="">
+          <input type="text" placeholder="Your Email" />
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- gallery -->
+    <section class="gallery" id="gallery">
+      <div class="gallery__img__container">
+        <img src="./images/tour-1.jpeg" alt="" />
+        <a href="#"><i class="fas fa-search"></i></a>
+      </div>
+      <div class="gallery__img__container">
+        <img src="./images/tour-2.jpeg" alt="" />
+        <a href="#"><i class="fas fa-search"></i></a>
+      </div>
+      <div class="gallery__img__container">
+        <img src="./images/tour-3.jpeg" alt="" />
+        <a href="#"><i class="fas fa-search"></i></a>
+      </div>
+      <div class="gallery__img__container">
+        <img src="./images/tour-4.jpeg" alt="" />
+        <a href="#"><i class="fas fa-search"></i></a>
+      </div>
+      <div class="gallery__img__container">
+        <img src="./images/tour-5.jpeg" alt="" />
+        <a href="#"><i class="fas fa-search"></i></a>
+      </div>
+      <div class="gallery__img__container">
+        <img src="./images/tour-6.jpeg" alt="" />
+        <a href="#"><i class="fas fa-search"></i></a>
+      </div>
+      <div class="gallery__img__container">
+        <img src="./images/tour-2.jpeg" alt="" />
+        <a href="#"><i class="fas fa-search"></i></a>
+      </div>
+      <div class="gallery__img__container">
+        <img src="./images/tour-3.jpeg" alt="" />
+        <a href="#"><i class="fas fa-search"></i></a>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <div class="container footer">
+        <nav class="footer__links">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#tours">Featured</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+          </ul>
+        </nav>
+        <ul class="footer__socials">
+          <li>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          </li>
+        </ul>
+        <p>
+          Copyright &copy; Backroads Travel Tours Company 2024. All Rights
+          Reserved
+        </p>
+      </div>
+    </footer>
 
     <!-- js -->
     <script src="script.js"></script>
