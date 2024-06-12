@@ -32,3 +32,21 @@ ul.addEventListener('click', hideNavAfterClick);
 lightGallery(document.querySelector('.gallery'), {
   download: false,
 });
+
+// smooth scroll
+const links = document.querySelectorAll(`a[href^="#"]`);
+const headerHeight = document.querySelector('header').offsetHeight;
+
+links.forEach((link) => {
+  link.addEventListener('click', (e) => {
+    e.preventDefault();
+
+    const href = link.getAttribute('href');
+    const offsetTop = document.querySelector(href).offsetTop - headerHeight;
+
+    scroll({
+      top: offsetTop,
+      behavior: 'smooth',
+    });
+  });
+});
