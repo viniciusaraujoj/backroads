@@ -27,3 +27,8 @@ const hideNavAfterClick = (e) => {
 menu.addEventListener('click', showNav);
 window.addEventListener('resize', hideNav);
 ul.addEventListener('click', hideNavAfterClick);
+
+// lightgallery
+lightGallery(document.querySelector('.gallery'), {
+  download: false,
+});
